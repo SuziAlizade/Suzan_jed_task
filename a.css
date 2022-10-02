@@ -1,0 +1,28 @@
+.container {
+    width: 24.2%;
+    height: 40%;
+    margin:0px 5px;
+    float: left;
+    padding: 5px;
+   border:3px solid darkgray;
+    box-sizing: border-box;
+
+}
+
+.container>img {
+    
+    width: 100%;
+    border:100%;
+}
+
+img {
+   
+    width: 200px;
+    height: 200px;
+
+}
+
+p {
+    text-align: center;
+}
+
