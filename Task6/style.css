@@ -1,0 +1,54 @@
+header {
+    font-size: 60px;
+    background-color: grey;
+    color: white;
+    height: 20vh;
+    padding: 60px 0px 0px 20px;
+
+}
+
+.column {
+    float: left;
+    margin: 30px px 0px 0px 3px;
+}
+
+.a {
+    width: 23vw;
+    height: 50px;
+    margin: 10px;
+    padding: 28px 0px 0px 10px;
+
+    color: white;
+    background-color: rgb(48, 95, 213);
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    width: auto;
+    height: 8vh;
+    padding: 30px 0px 0px 20px;
+
+    margin-top: 400px;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.mainContent {
+    display: inline-block;
+    float: right;
+    width: 50vw;
+    margin-right: 200px;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+.b{
+    font-size:17px ;
+    
+}

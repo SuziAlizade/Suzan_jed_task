@@ -1,10 +1,14 @@
-p::after{
+
+
+p {
+    color: white;
+    background-color: blue;
+}
+p::after {
     content: "\2600";
 }
-p{
-    color:blanchedalmond;
-background-color: blue;
-}
+
 p::selection{
-background-color: red;
+    background-color: red;
+    color: yellow;
 }
