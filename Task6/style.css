@@ -38,8 +38,8 @@ footer {
 }
 
 .mainContent {
-    display: inline-block;
-    float: right;
+    display: inline;
+
     width: 50vw;
     margin-right: 200px;
 }
