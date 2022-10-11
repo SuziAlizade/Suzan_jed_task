@@ -1,0 +1,54 @@
+div {
+    width: 60vw;
+    height: 22vh;
+
+}
+
+.top {
+    background-color: blue;
+}
+
+.medium {
+    background-color: red;
+}
+.moon1{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,255,255, 0.9);
+    border-radius: 100px;
+    position: relative;
+    inset:20px 0 0 300px;
+    display: inline-block;
+
+}
+.moon2{
+    width: 83px;
+    height: 83px;
+    background-color: red;
+    border-radius: 100px;
+    position: relative;
+ inset: 8px 20px 20px 20px;
+    display: inline-block;
+}
+.star1 {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: relative;
+    inset: 0 0 0 290px;
+    display: inline-block;
+}
+.star2 {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    transform: rotate(135deg);
+    
+}
+
+
+.bottom {
+    background-color: green;
+}
