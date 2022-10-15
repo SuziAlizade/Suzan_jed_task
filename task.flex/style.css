@@ -1,0 +1,69 @@
+header {
+    color: #63b7e6;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+div {
+
+    width: 200px;
+    height: 350px;
+
+}
+
+div .m1:hover {
+    box-shadow: 0 0 30px #63b7e6;
+    color: #63b7e6;
+    cursor: pointer;
+
+}
+
+
+.fa-code,
+.fa-music,
+.fa-users {
+    position: relative;
+    inset: 15px 50px 0 80px;
+
+    font-size: 30px;
+}
+
+.m {
+
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: gray;
+    border-radius: 60px;
+    position: relative;
+    left: 80px;
+
+
+}
+
+.music1 .s:hover {
+    background-color: #63b7e6;
+}
+
+.m2 {
+    font-size: 9px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+    padding: 10px;
+}
