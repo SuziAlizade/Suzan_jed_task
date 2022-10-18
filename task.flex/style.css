@@ -26,6 +26,9 @@ div .m1:hover {
     cursor: pointer;
 
 }
+ .m1:hover .line{
+    width: 3px;
+}
 
 
 .fa-code,
@@ -45,13 +48,17 @@ div .m1:hover {
 
 }
 
+
 .line {
-    width: 30px;
+    width: 10px;
     height: 2px;
     background-color: gray;
     border-radius: 60px;
     position: relative;
     left: 80px;
+margin: 0;
+   display:inline-block;
+
 
 
 }

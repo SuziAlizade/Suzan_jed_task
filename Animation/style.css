@@ -1,0 +1,39 @@
+.pacman-top{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 900px 900px 0 0;
+    animation: pacman-top 0.5s infinite alternate;
+}
+@keyframes pacman-top {
+    from{
+transform: rotate(0);
+    }to{
+transform: rotate(-22deg);
+    }
+}
+.eye{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+   position: relative;
+   inset:30px 0 0 90px;
+}
+
+
+.pacman-bottom{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 0 0 900px 900px;
+    animation: pacman-bottom 0.5s infinite alternate;
+}
+@keyframes pacman-bottom {
+    from{
+transform: rotate(0);
+    }to{
+transform: rotate(22deg);
+    }
+    
+}
