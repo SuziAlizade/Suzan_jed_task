@@ -5,11 +5,14 @@
     border-radius: 900px 900px 0 0;
     animation: pacman-top 0.5s infinite alternate;
 }
+:root{
+    --degree:45deg;
+}
 @keyframes pacman-top {
     from{
 transform: rotate(0);
     }to{
-transform: rotate(-22deg);
+transform: rotate(calc(var(--degree) * -1));
     }
 }
 .eye{
@@ -33,7 +36,7 @@ transform: rotate(-22deg);
     from{
 transform: rotate(0);
     }to{
-transform: rotate(22deg);
+transform: rotate(var(--degree));
     }
     
 }
