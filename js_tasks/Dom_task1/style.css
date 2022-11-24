@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+button{
+  margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#redButton{
+    background-color: rgb(255, 42, 0);
+}
+#blueButton{
+    background-color: rgb(55, 0, 255);
+}
+#grayButton{
+    background-color: rgb(171, 149, 144);
+}
+#yellowButton{
+    background-color: rgb(238, 255, 0);
+}
