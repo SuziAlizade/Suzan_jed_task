@@ -1,12 +1,19 @@
-// import Button from './Components/Button';
-import Counter from './Components/Counter';
-
+// import Counter from './Components/Counter';
+import { useState } from 'react';
+import Login from './Components/Login'
 function App() {
+  const [seen, setSeen] = useState(false)
   return (
-    <div className="App">
-     <Counter/>
-   
-    </div>
+    <>
+    {
+      seen && <Login/>
+    }
+    <button onClick = {()=>{
+        setSeen(!seen)
+      }}>
+      Click for Login
+    </button>
+    </>
   );
 }
 
